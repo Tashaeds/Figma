@@ -166,6 +166,7 @@ text-align : center;
   left: 0px;
   top: 1704px;
   background-color: #F6F7F1;
+  display: block;
   }
 
 
@@ -190,6 +191,8 @@ h3{padding-top: 20px;
 
   .unity{
     color: #F14C36;
+    justify-content: center;
+   
 }
   .privacy {
   color: #436B2c;
@@ -198,6 +201,37 @@ h3{padding-top: 20px;
   .clarity {
     color: #ecb20d;
   }
+  /*end of bottom section*/
+
+  .footer{
+    width: 393px;
+    height: 450px;
+    left: 0px;
+    top: 2556px;
+    background: #29182E;
+}
+
+
+div
+  ul {
+    width: 218px;
+    height: 175px;
+    padding-left: 88px;
+    padding-top: 140px;
+    color: #ECB20D;
+    align-items: center;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+justify-content: space-around;
+font-weight: 500;
+font-size: 20px;
+line-height: 25px;}
+
+.started{}
+.about{}
+.jobs{}
+.privacypol{}
+.cookiespol{}
 
 
 
