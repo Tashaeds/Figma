@@ -2,50 +2,57 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  justify-content: center;
 }
 
 body {
     font-family: 'Lexend Deca', sans-serif; 
-    justify-content: center;
-    position: absolute;
+    position: relative;
+    width: 393px;
+    height: 3006px;
+    overflow-y: scroll;
+    background-color: #F6F7F1;
   }
 
 /* start of header*/
 
 Header {
+    position: absolute;
     width: 393px;
     height: 852px;
     left: 0px;
     top: 0px;
-    position: absolute;
     background-color: #29182E;
-    display: block
+    display: block;
     }
 
 nav {
+  position: absolute;
     width: 393px;
     height: 81px;
-    
+    left: 0px;
+    top: 0px;
 }
 
 #logo {
+      position: absolute;
       font-weight: 500;
       font-size: 32px;
       line-height: 40px;
       letter-spacing: 0.15em;
       color: #f14c36;
-      
       width: 214px;
       height: 40px;
       padding-left: 90px;
-      padding-top: 20px;}
+      padding-top: 20px;
+    }
 
 h1{
-  position: absolute;
+    position: absolute;
     width: 343px;
     height: 96px;
-    padding-top: 205px;
-    margin-left: 25px;
+    padding-top: 265px;
+    padding-left: 25px;
     font-weight: 500;
     font-size: 40px;
     line-height: 48px;
@@ -55,31 +62,33 @@ h1{
 }
       
 .headerP {
-  position: absolute;
+    position: absolute;
     width: 343px;
     height: 100px;
+    padding-left: 25px;
     text-align: center;
     font-weight: 400;
     font-size: 20px;
     line-height: 25px;
-    padding-top: 125px;
-    display: flex;
+    padding-top: 386px;
     color: #F6F7F1;
 }
 .headerd {
+  position: absolute;
   width: 250px;
   height: 60px;
   margin-top: 526px;
-  margin-left: 41px;
+  margin-left: 72px;
   background-color: hsl(7, 87%, 58%);
   border-radius: 50px;
+  padding-bottom: 20px;
 }
 
 #button {
   width: 167px;
   height: 20px;
-  margin-left: 41px;
-  padding-top: 20px;
+  border-top: 20px;
+  padding-left: 41px;
   font-weight: 500;
   font-size: 20px;
   line-height: 20px;
@@ -96,23 +105,24 @@ h1{
 
 
  .middle {
+  
+  padding-top: 44px;
   width: 393px;
   height: 852px;
   left: 0px;
-  top: 850px;
+  top: 852px;
   background-color: #F6F7F1;
   padding: 49px;
+ }
 
-}
+ img {
 
-img {
-
-  width: 293px;
-  height: 603, 34px;
   left: 20px;
-  padding: leftright 0px; 
+  padding-top: 44px;
+  padding-left: 20px;
+  padding-right: 50px;
   top: 40px;
-}
+ }
 
 h2 {
   width: 343px;
@@ -120,33 +130,75 @@ h2 {
   font-weight: 500;
   font-size: 24px;
   line-height:30px;
-   align-items:center;
+  align-items: center;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   text-align: center;
-  color: #29182E;}
+  color: #29182E;
+  padding-left: 25px;
+  top: 672px;
+  
+}
 
   .social {color: #F14C36;}
   .integrity {color: #436B2c;}
-}
 
-main p {
-padding:  15px, 25px,45px,25px;
+
+.middlep {
+padding-top: 20px;
 width: 343px;
 height: 60px;
 font-weight: 400;
 font-size:16px;
-
 line-height: 20px;
 color: #29182E;
+top: 747px;
+text-align : center;
 }
 
-.bottom [
+/*end of first section*/
+
+/*beginning of bottom section*/
+
+.bottom {
   width:393px;
   height: 852ppx;
   left: 0px;
   top: 1704px;
-  background-color: #F6F7F1;}
+  background-color: #F6F7F1;
+  }
+
+
+ div h2  {
+  width: 343px;
+  height: 60px;
+  margin-top: 44px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #29182E
+}
+
+
+h3{padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 500;
+  font-size: 20px;}
+
+  .unity{
+    color: #F14C36;
+}
+  .privacy {
+  color: #436B2c;
+  }
+
+  .clarity {
+    color: #ecb20d;
+  }
+
 
 
 
