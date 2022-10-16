@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif; 
+    justify-content: center;
+    position: absolute;
+  }
+
+/* start of header*/
+
+Header {
+    width: 393px;
+    height: 852px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background-color: #29182E;
+    display: block
+    }
+
+nav {
+    width: 393px;
+    height: 81px;
+    
+}
+
+#logo {
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 40px;
+      letter-spacing: 0.15em;
+      color: #f14c36;
+      
+      width: 214px;
+      height: 40px;
+      padding-left: 90px;
+      padding-top: 20px;}
+
+h1{
+  position: absolute;
+    width: 343px;
+    height: 96px;
+    padding-top: 205px;
+    margin-left: 25px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.15em;
+    color: #F6F7F1;
+    text-align: center;
+}
+      
+.headerP {
+  position: absolute;
+    width: 343px;
+    height: 100px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 125px;
+    display: flex;
+    color: #F6F7F1;
+}
+.headerd {
+  width: 250px;
+  height: 60px;
+  margin-top: 526px;
+  margin-left: 41px;
+  background-color: hsl(7, 87%, 58%);
+  border-radius: 50px;
+}
+
+#button {
+  width: 167px;
+  height: 20px;
+  margin-left: 41px;
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #F6F7F1;
+  top: 562px;
+ 
+}
+
+/*end of header*/
+
+/*start of first section*/
+
+
+ .middle {
+  width: 393px;
+  height: 852px;
+  left: 0px;
+  top: 850px;
+  background-color: #F6F7F1;
+  padding: 49px;
+
+}
+
+img {
+
+  width: 293px;
+  height: 603, 34px;
+  left: 20px;
+  padding: leftright 0px; 
+  top: 40px;
+}
+
+h2 {
+  width: 343px;
+  height: 60px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height:30px;
+   align-items:center;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #29182E;}
+
+  .social {color: #F14C36;}
+  .integrity {color: #436B2c;}
+}
+
+main p {
+padding:  15px, 25px,45px,25px;
+width: 343px;
+height: 60px;
+font-weight: 400;
+font-size:16px;
+
+line-height: 20px;
+color: #29182E;
+}
+
+.bottom [
+  width:393px;
+  height: 852ppx;
+  left: 0px;
+  top: 1704px;
+  background-color: #F6F7F1;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
